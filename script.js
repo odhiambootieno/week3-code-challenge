@@ -55,3 +55,5 @@ document.addEventListener("DOMContentLoaded", () => {
             // Update the available tickets
             filmAvailableTickets.textContent = `Available Tickets: ${availableTickets - 1}`;
             // Optionally, you can also disable the button
+        }
+    });
