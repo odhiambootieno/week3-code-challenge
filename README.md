@@ -32,6 +32,7 @@ This code challenge focuses on Flatdango which is a simple web application that 
 To run this project locally, follow these steps:
 
 1. **Clone the repository:**
+   
    ```bash
    git clone git@github.com:odhiambootieno/week3-code-challenge.git
    cd flatdango
@@ -54,7 +55,7 @@ json-server --watch db.json
 
 4. **Open the application:**
 
-    . open index.html in your web browser
+     - open index.html in your web browser
 
 ## Usage
 
