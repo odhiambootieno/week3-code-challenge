@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#main-content {
+    display: flex;
+}
+
+#film-details {
+    margin-right: 20px;
+}
+
+#films {
+    list-style-type: none;
+    padding: 0;
+}
