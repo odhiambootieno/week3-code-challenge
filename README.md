@@ -51,11 +51,12 @@ npm install -g json-server
   ```bash
 json-server --watch db.json
   ```
-   This will start the server at http://localhost:3000.
+     This will start the server at http://localhost:3000.
 
 4. **Open the application:**
 
      - open index.html in your web browser
+
 
 ## Usage
 
