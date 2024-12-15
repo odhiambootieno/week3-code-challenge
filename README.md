@@ -55,10 +55,12 @@ json-server --watch db.json
 
 4. **Open the application:**
 
-     - open index.html in your web browser
    ```bash
-open index html
+   open index.html
    ```
+     This will open index.html in your web browser
+   
+   
 
 ## Usage
 
