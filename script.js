@@ -20,13 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 li.dataset.id = film.id; // Store the film ID
                 filmsList.appendChild(li);
             });
-     fetch('https://my-json-server.typicode.com/odhiambootieno/week3-code-challenge/db', {
-                method: 'GET',
-                headers: {
-                    'Access-Control-Allow-Origin': '*',
-                    'Content-Type': 'application/json'
-                }
-            }) 
+    
 
             // Load the first film's details
             loadFilmDetails(films[0]);
