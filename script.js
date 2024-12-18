@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const filmsList = document.getElementById("films");
 
     // Fetch all films
-    fetch("http://localhost:3000/films")
+    fetch("https://my-json-server.typicode.com/odhiambootieno/week3-code-challenge/films")
         .then(response => response.json())
         .then(films => {
             // Populate the films list
