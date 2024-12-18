@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const uri = 'http://localhost:3000/contact/send';
 
     // Fetch all films
-    fetch("http://localhost:3000/films")
+    fetch("http://localhost:3000/api/films")
         .then(response => response.json())
         .then(films => {
             // Populate the films list
