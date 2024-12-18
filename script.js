@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const filmAvailableTickets = document.getElementById("film-available-tickets");
     const buyTicketButton = document.getElementById("buy-ticket");
     const filmsList = document.getElementById("films");
-    const uri = 'http://localhost:3000/contact/send';
 
     // Fetch all films
     fetch("http://localhost:3000/api/films")
