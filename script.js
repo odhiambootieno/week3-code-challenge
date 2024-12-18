@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     filmsList.addEventListener("click", (event) => {
         if (event.target.classList.contains("film-item")) {
             const filmId = event.target.dataset.id;
-            fetch(`http://localhost:3000/films/${filmId}`)
+            fetch(`https://my-json-server.typicode.com/odhiambootieno/week3-code-challenge/films/${filmId}`)
                 .then(response => response.json())
                 .then(film => loadFilmDetails(film));
         }
